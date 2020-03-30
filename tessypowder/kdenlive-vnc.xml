@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>MediaApp:Video MediaApp:Music</Category>
+  <Name>Kdenlive VNC</Name>
+  <Changes>
+[center][font size=4]Changelog[/font][/center]
+[font size=3]1.0[/font]
+- Initial Release
+  </Changes>
+  <Overview>An instance of kdenlive accessible through vnc and noVnc (=Web Interface)</Overview>
+  <Description></Description>
+  <GitHub>https://github.com/TessyPowder/kdenlive-vnc-docker/</GitHub>
+  <Repository>tessypowder/docker-kdenlive</Repository>
+  <Support>https://github.com/TessyPowder/kdenlive-vnc-docker/issues</Support>
+  <Privileged>false</Privileged>
+  <Network Default="host">bridge</Network>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/kdenlive/</HostDir>
+      <ContainerDir>/sharedContent</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5800]</WebUI>
+  <Icon>https://raw.githubusercontent.com/TessyPowder/kdenlive-docker/master/kdenlive-logo.png</Icon>
+</Containers>
