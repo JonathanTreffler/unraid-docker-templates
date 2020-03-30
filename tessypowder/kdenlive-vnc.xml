@@ -22,6 +22,24 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <Config
+       Type="Port" 
+       Name="noVNC Web Interface" 
+       Target="5800" 
+       Default="5800" 
+       Mode="tcp" 
+       Description="" 
+       Display="always" 
+       Required="false">5800</Config>
+    <Config
+       Type="Port" 
+       Name="VNC" 
+       Target="5900" 
+       Default="5900" 
+       Mode="tcp" 
+       Description="" 
+       Display="always"
+       Required="false">5900</Config>
   <WebUI>http://[IP]:[PORT:5800]</WebUI>
   <Icon>https://raw.githubusercontent.com/TessyPowder/kdenlive-docker/master/kdenlive-logo.png</Icon>
 </Containers>
