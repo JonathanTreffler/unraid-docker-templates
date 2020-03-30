@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Beta>False</Beta>
-  <Category>MediaApp:Video MediaApp:Music</Category>
+  <Category>MediaApp:Video MediaApp:Music Productivity: Tools:</Category>
+  <Date>2020-03-30</Date>
   <Name>Kdenlive VNC</Name>
   <Changes>
 [center][font size=4]Changelog[/font][/center]
