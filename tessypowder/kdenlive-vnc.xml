@@ -11,9 +11,9 @@
   </Changes>
   <Overview>An instance of kdenlive accessible through vnc and noVnc (=Web Interface)</Overview>
   <Description></Description>
-  <GitHub>https://github.com/TessyPowder/kdenlive-vnc-docker/</GitHub>
-  <Repository>tessypowder/docker-kdenlive</Repository>
-  <Support>https://github.com/TessyPowder/kdenlive-vnc-docker/issues</Support>
+  <GitHub>https://github.com/JonathanTreffler/kdenlive-vnc-docker/</GitHub>
+  <Repository>JonathanTreffler/docker-kdenlive</Repository>
+  <Support>https://github.com/JonathanTreffler/kdenlive-vnc-docker/issues</Support>
   <Privileged>false</Privileged>
   <Network Default="host">bridge</Network>
   <Data>
@@ -42,5 +42,5 @@
        Display="always"
        Required="false">5900</Config>
   <WebUI>http://[IP]:[PORT:5800]</WebUI>
-  <Icon>https://raw.githubusercontent.com/TessyPowder/kdenlive-docker/master/kdenlive-logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/JonathanTreffler/kdenlive-docker/master/kdenlive-logo.png</Icon>
 </Containers>
